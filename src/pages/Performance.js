@@ -35,7 +35,11 @@ function Performance (props) {
         {show ? (
           <div className='Buttons-container'>
             {Object.keys(state.performance.data).map(key => (
-              <button className='Button4' onClick={() => onClick(key)}>
+              <button
+                key={key}
+                className='Button4'
+                onClick={() => onClick(key)}
+              >
                 {key}
               </button>
             ))}

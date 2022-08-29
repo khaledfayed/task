@@ -28,8 +28,12 @@ function CommentsContainer () {
   return (
     <div className='Main'>
       {state.comments.data.map(comment => (
-        <Profiler id={`comment#${comment.id}`} onRender={performance}>
-          <Message comment={comment} />
+        <Profiler
+          key={comment.id}
+          id={`comment#${comment.id}`}
+          onRender={performance}
+        >
+          <Message key={comment.id} comment={comment} />
         </Profiler>
       ))}
     </div>

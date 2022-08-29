@@ -26,8 +26,7 @@ root.render(
         <Route exact path='/details/:id' element={<Details />} />
       </Routes>
     </BrowserRouter>
-  </Provider>,
-  root
+  </Provider>
 )
 
 // If you want to start measuring performance in your app, pass a function

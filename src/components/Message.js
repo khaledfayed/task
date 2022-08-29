@@ -4,9 +4,9 @@ import './Message.css'
 function Message (props) {
   return (
     <div className='Message'>
-      <text className='Text'>{props.comment.name}</text>
-      <text className='Text'>{props.comment.email}</text>
-      <text className='Text'>{props.comment.body}</text>
+      <h1 className='Text'>{props.comment.name}</h1>
+      <h1 className='Text'>{props.comment.email}</h1>
+      <h1 className='Text'>{props.comment.body}</h1>
     </div>
   )
 }
