@@ -1,0 +1,44 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15%;
+}
+
+.Header1 {
+  display: flex;
+  border: 2px;
+  border-style: solid;
+  width: 15%;
+  border-right: 0ch;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header2 {
+  display: flex;
+  border: 2px;
+  border-style: solid;
+  width: 70%;
+  border-right: 0ch;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header3 {
+  display: flex;
+  border: 2px;
+  border-style: solid;
+  width: 15%;
+}
+
+.Header-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.Header-text {
+  font-size: 20;
+  font-weight: 600;
+  margin: 10px;
+}

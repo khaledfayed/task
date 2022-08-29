@@ -1,0 +1,38 @@
+.Button {
+  width: 250px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.Button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px;
+  border-style: solid;
+  border-color: #2c3639;
+  width: 70%;
+  height: 100%;
+}
+
+.Button2 {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 2px;
+  border-left: 0px;
+  border-style: solid;
+  border-color: #2c3639;
+}
+
+.Arrow-img {
+  height: 60%;
+  width: 60%;
+}

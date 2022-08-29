@@ -1,0 +1,14 @@
+.Details-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff5e1;
+}
+
+.Details-text {
+  font-size: 14pt;
+  margin: 10px;
+}
