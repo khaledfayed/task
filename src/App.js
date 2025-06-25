@@ -11,7 +11,7 @@ function App () {
 
         <div className='Rest'>
           <div className='Body1'>
-            <h1 className='Title'>DUMMY COMMENTS</h1>
+            <h1 className='Title'>DUMMY COMMENTS </h1>
             <h2 className='Sub-title'>
               Just woke up and you decided you'd like to scroll through some
               fake comments, we've got you!
